@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addMember"
+        android:title="New Member"
+        />
+    <item
+        android:id="@+id/deleteAll"
+        android:title="Delete All Members"/>
+    <item
+        android:id="@+id/reset"
+        android:title="Factory Reset"/>
+
+</menu>
