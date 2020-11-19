@@ -31,7 +31,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/tvRole"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Membership Role"
@@ -40,7 +40,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
             <TextView
-                android:id="@+id/shares"
+                android:id="@+id/tvShare"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Share Value"
@@ -50,15 +50,15 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/loanApplication"
+                android:id="@+id/tvLoanApplication"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Loan Application"
                 android:textSize="16dp"
                 android:textStyle="italic"
-                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                app:layout_constraintBottom_toBottomOf="@+id/tvRole"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/shares"
+                app:layout_constraintTop_toBottomOf="@id/tvShare"
                 app:layout_constraintVertical_bias="1.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
